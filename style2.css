@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0B0C10;
+    color: #66fcf1;
+}
+
+/* Navigation bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1f2833;
+}
+
+.nav_link {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_link li {
+    margin: 0 20px;
+}
+
+.nav_link a {
+    text-decoration: none;
+    color: #66fcf1;
+    font-weight: bold;
+}
+
+.cta-btn {
+    background-color: #25c3b9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Main section */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.main .intro {
+    max-width: 50%;
+}
+
+.main h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.main h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.main img {
+    max-width: 40%;
+    height: auto;
+}
+
+/* Button styles ,the color  #66fcf1 */
+.main .cta-btn {
+
+    background-color: #25c3b9;
+    color: #fff;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
